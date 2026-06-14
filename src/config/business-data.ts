@@ -1,6 +1,6 @@
 // ============================================================
 // ORAYN DEMO TEMPLATE — STARTER
-// PRESET: Salon / Beauty & Wellness
+// PRESET: Boutique / Retail & Fashion
 // ============================================================
 
 export type Service = {
@@ -32,93 +32,93 @@ export type BusinessData = {
 };
 
 const businessData: BusinessData = {
-  businessName: "Lumiere Beauty Studio",
+  businessName: "Eclat Fashion House",
   tagline:
-    "Premium hair, skin, and nail services in a relaxed, professional environment. Where you leave looking and feeling your best.",
-  phone: "+234 805 678 9012",
-  whatsappNumber: "2348056789012",
-  email: "bookings@lumierebeauty.ng",
-  address: "5 Admiralty Way, Lekki Phase 1",
+    "Curated women's fashion, African prints, and contemporary styles. Dress with intention.",
+  phone: "+234 809 012 3456",
+  whatsappNumber: "2348090123456",
+  email: "shop@eclatfashion.ng",
+  address: "18 Balogun Market Road, Lagos Island",
   city: "Lagos",
-  category: "Salon",
-  industry: "Beauty & Wellness",
-  logoText: "Lumiere",
+  category: "Boutique",
+  industry: "Retail & Fashion",
+  logoText: "Eclat",
   primaryColor: "#1B2A4A",
   accentColor: "#C49A28",
-  ctaLabel: "Book an Appointment",
+  ctaLabel: "Shop Our Collection",
 
   about:
-    "Lumiere Beauty Studio has been Lagos's trusted name in premium beauty care for over 7 years. Our team of certified stylists and beauty professionals specialise in natural hair, protective styles, skin treatments, and nail art. We use only high-grade products and maintain strict hygiene standards so every visit feels like a treat, not just a routine.",
+    "Eclat Fashion House is a premium Lagos boutique specialising in contemporary women's wear, Ankara and Adire designs, and occasion outfits. We have been dressing Lagos women for corporate, social, and traditional events for over 6 years. Every piece in our store is personally curated — no low-quality imports, no mass-produced catalogue items. We also offer bespoke tailoring for clients who want something entirely their own.",
 
   services: [
     {
-      name: "Hair Relaxing & Texturising",
+      name: "Ready-to-Wear Collection",
       description:
-        "Professional relaxer treatments, texturisers, and keratin straightening using premium salon-grade products for lasting results.",
-      icon: "Sparkles",
+        "Curated selection of dresses, blouses, co-ords, and trousers for the professional and social woman. New arrivals weekly.",
+      icon: "ShoppingBag",
     },
     {
-      name: "Protective Styles",
+      name: "Ankara & Adire Designs",
       description:
-        "Braids, twists, weaves, and crochet styles done with care. All hair types and lengths welcome.",
+        "African print outfits made with quality fabrics. Aso-ebi sets, modern Ankara blends, and festival looks.",
+      icon: "Palette",
+    },
+    {
+      name: "Bespoke Tailoring",
+      description:
+        "Custom-made outfits from your own fabric or ours. Formal gowns, wedding guest looks, and corporate wear.",
+      icon: "Scissors",
+    },
+    {
+      name: "Occasion Styling",
+      description:
+        "Personal styling service for events — birthdays, weddings, graduations, and corporate functions. We dress you head to toe.",
       icon: "Star",
     },
     {
-      name: "Natural Hair Care",
+      name: "Accessories",
       description:
-        "Deep conditioning, steam treatments, wash-and-go sets, and twist-outs tailored to your curl pattern.",
-      icon: "Leaf",
-    },
-    {
-      name: "Facials & Skin Treatments",
-      description:
-        "Deep cleansing facials, brightening treatments, and hydration therapies for all skin tones and types.",
-      icon: "Heart",
-    },
-    {
-      name: "Manicure & Pedicure",
-      description:
-        "Classic and gel manicures, spa pedicures, nail art, and extensions. Impeccably clean tools, every time.",
+        "Handbags, belts, scarves, and jewellery that complete the look. Locally made and imported pieces carefully selected.",
       icon: "Gem",
     },
     {
-      name: "Makeup & Bridal Beauty",
+      name: "Online Orders & Delivery",
       description:
-        "Professional makeup for events, photoshoots, and weddings. Airbrush and HD makeup available.",
-      icon: "Camera",
+        "Order via Instagram or WhatsApp. We deliver across Lagos within 24–48 hours and ship nationwide within 3–5 days.",
+      icon: "Truck",
     },
   ],
 
   whyUs: [
-    "7 years of excellence in Lagos beauty care",
-    "Certified stylists trained locally and internationally",
-    "Strict hygiene protocols and premium product lines",
-    "Relaxed, welcoming atmosphere — walk-ins accepted",
+    "6 years dressing Lagos women with style and confidence",
+    "Only quality fabrics and materials — no cheap imports",
+    "In-house tailoring for fully custom and aso-ebi orders",
+    "Nationwide delivery and responsive WhatsApp customer service",
   ],
 
   openingHours: [
     { day: "Monday – Friday", hours: "9:00 AM – 7:00 PM" },
-    { day: "Saturday", hours: "8:00 AM – 7:00 PM" },
-    { day: "Sunday", hours: "10:00 AM – 5:00 PM" },
+    { day: "Saturday", hours: "9:00 AM – 8:00 PM" },
+    { day: "Sunday", hours: "12:00 PM – 5:00 PM" },
   ],
 
   gallery: [
     {
-      src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=85&auto=format&fit=crop",
-      alt: "Professional hair styling at Lumiere Beauty Studio",
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85&auto=format&fit=crop",
+      alt: "Curated women's fashion display at Eclat",
     },
     {
-      src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=85&auto=format&fit=crop",
-      alt: "Facial treatment in progress",
+      src: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&q=85&auto=format&fit=crop",
+      alt: "Ankara and African print collections",
     },
     {
-      src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&q=85&auto=format&fit=crop",
-      alt: "Nail art and manicure services",
+      src: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=85&auto=format&fit=crop",
+      alt: "Boutique interior with curated fashion pieces",
     },
   ],
 
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7!2d3.4739!3d6.4281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf53c7d4b0001%3A0x0!2sLekki%20Phase%201%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716000000002",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.9!2d3.3853!3d6.4526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ae000000001%3A0x0!2sBalogun%2C%20Lagos%20Island!5e0!3m2!1sen!2sng!4v1716000000005",
 };
 
 export default businessData;
