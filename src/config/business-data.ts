@@ -1,6 +1,6 @@
 // ============================================================
 // ORAYN DEMO TEMPLATE — STARTER
-// PRESET: Event Planner / Events
+// PRESET: Pharmacy / Healthcare
 // ============================================================
 
 export type Service = {
@@ -32,93 +32,93 @@ export type BusinessData = {
 };
 
 const businessData: BusinessData = {
-  businessName: "Grandeur Events",
+  businessName: "Medcare Pharmacy",
   tagline:
-    "Turning your vision into an unforgettable event. Weddings, corporate functions, and celebrations done flawlessly.",
-  phone: "+234 810 123 4567",
-  whatsappNumber: "2348101234567",
-  email: "hello@grandeurevents.ng",
-  address: "7 Ozumba Mbadiwe Avenue, Victoria Island",
+    "Licensed pharmaceutical care you can trust. Genuine medications, professional advice, fast dispensing.",
+  phone: "+234 807 890 1234",
+  whatsappNumber: "2348078901234",
+  email: "medcarepharmacy@gmail.com",
+  address: "3 Hospital Road, Surulere",
   city: "Lagos",
-  category: "Event Planning",
-  industry: "Events",
-  logoText: "Grandeur",
+  category: "Pharmacy",
+  industry: "Healthcare",
+  logoText: "Medcare",
   primaryColor: "#1B2A4A",
   accentColor: "#C49A28",
-  ctaLabel: "Plan Your Event",
+  ctaLabel: "Send Us a Prescription",
 
   about:
-    "Grandeur Events is a full-service event planning and management company based in Lagos. Since 2016, we have planned and executed weddings, corporate galas, birthday celebrations, product launches, and social events for clients across Nigeria. We handle every detail — from concept and decor to vendor management, catering coordination, and day-of execution. Your event runs smoothly because we plan obsessively so you never have to worry.",
+    "Medcare Pharmacy is a PCN-registered retail pharmacy serving the Surulere community and beyond for over 12 years. We stock a comprehensive range of prescription medicines, OTC drugs, supplements, and medical devices. Our licensed pharmacists are always available to counsel patients, verify prescriptions, and provide health guidance. We do not sell expired, fake, or substandard medications — ever.",
 
   services: [
     {
-      name: "Wedding Planning",
+      name: "Prescription Dispensing",
       description:
-        "Full wedding planning and day-of coordination. We manage vendors, logistics, decor, and timeline so you enjoy your day completely.",
-      icon: "Heart",
+        "Fast, accurate dispensing of all prescription medications. Our pharmacists verify every prescription before filling.",
+      icon: "ClipboardCheck",
     },
     {
-      name: "Corporate Events",
+      name: "OTC Medications",
       description:
-        "Product launches, annual dinners, company retreats, conferences, and award ceremonies. Professional execution, always on brand.",
-      icon: "Briefcase",
+        "Wide range of over-the-counter drugs for malaria, pain, fever, infections, allergies, and common conditions.",
+      icon: "Package",
     },
     {
-      name: "Birthday & Social Celebrations",
+      name: "Supplements & Vitamins",
       description:
-        "Milestone birthdays, anniversaries, baby showers, and private parties. Every detail considered, every moment memorable.",
-      icon: "Star",
+        "Multivitamins, prenatal supplements, immune boosters, and sports nutrition from verified manufacturers.",
+      icon: "Leaf",
     },
     {
-      name: "Venue Sourcing & Decor",
+      name: "Blood Pressure & Sugar Monitoring",
       description:
-        "We identify the right venue, negotiate pricing, and design your decor concept from scratch. Flowers, lighting, draping, and more.",
-      icon: "MapPin",
+        "Free blood pressure checks and blood glucose monitoring available in-store. Know your numbers.",
+      icon: "Activity",
     },
     {
-      name: "Catering Coordination",
+      name: "Home Delivery",
       description:
-        "We work with Lagos's best caterers to ensure your food service matches your event's quality. Menu planning and supervision included.",
-      icon: "UtensilsCrossed",
+        "Order medications via WhatsApp and receive delivery within 2–4 hours within Lagos. Same-day for urgent prescriptions.",
+      icon: "Truck",
     },
     {
-      name: "Entertainment & MC Booking",
+      name: "Pharmacist Consultation",
       description:
-        "Live bands, DJs, comedians, and professional MCs sourced, contracted, and briefed. Your entertainment is in safe hands.",
-      icon: "Music",
+        "Speak directly with a licensed pharmacist about drug interactions, dosage guidance, and general health queries.",
+      icon: "MessageCircle",
     },
   ],
 
   whyUs: [
-    "Over 200 events successfully executed since 2016",
-    "End-to-end management — you relax while we work",
-    "Trusted vendor network across Lagos and Abuja",
-    "Transparent budgeting — no hidden costs, no surprises",
+    "PCN-registered — 100% genuine, verified medications",
+    "12 years trusted service in Surulere and beyond",
+    "Licensed pharmacist always on duty, 7 days a week",
+    "WhatsApp orders with same-day delivery available",
   ],
 
   openingHours: [
-    { day: "Monday – Friday", hours: "9:00 AM – 6:00 PM" },
-    { day: "Saturday", hours: "10:00 AM – 4:00 PM" },
-    { day: "Sunday", hours: "By appointment only" },
+    { day: "Monday – Friday", hours: "8:00 AM – 9:00 PM" },
+    { day: "Saturday", hours: "8:00 AM – 8:00 PM" },
+    { day: "Sunday", hours: "10:00 AM – 6:00 PM" },
   ],
 
   gallery: [
     {
-      src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200&q=85&auto=format&fit=crop",
-      alt: "Elegantly decorated wedding reception hall",
+      src: "https://images.unsplash.com/photo-1576671081837-49000212a370?w=1200&q=85&auto=format&fit=crop",
+      alt: "Pharmacist consulting with a patient",
     },
     {
-      src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=85&auto=format&fit=crop",
-      alt: "Corporate event setup and stage design",
+      src: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1200&q=85&auto=format&fit=crop",
+      alt: "Well-stocked pharmacy shelves with medications",
     },
     {
-      src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1200&q=85&auto=format&fit=crop",
-      alt: "Floral arrangements and decor at a celebration",
+      src: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=85&auto=format&fit=crop",
+      alt: "Pharmacist dispensing prescription medication",
     },
   ],
 
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6!2d3.4299!3d6.4312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf52000000001%3A0x0!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716000000006",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1!2d3.3539!3d6.4969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8da000000001%3A0x0!2sSurulere%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716000000004",
 };
 
 export default businessData;
