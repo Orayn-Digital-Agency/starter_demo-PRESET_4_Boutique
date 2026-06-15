@@ -1,8 +1,6 @@
 // ============================================================
 // ORAYN DEMO TEMPLATE — STARTER
-// PRESET: Electrical Service / Trade & Services
-// Replace businessName, phone, whatsappNumber, address, city,
-// email, and mapEmbedUrl with the client's real data.
+// PRESET: Plumbing Service / Trade & Services
 // ============================================================
 
 export type Service = {
@@ -34,68 +32,68 @@ export type BusinessData = {
 };
 
 const businessData: BusinessData = {
-  businessName: "Bright Spark Electrical",
+  businessName: "ProFlow Plumbing",
   tagline:
-    "Fast, reliable electrical solutions for homes and businesses across Lagos.",
-  phone: "+234 802 341 7890",
-  whatsappNumber: "2348023417890",
-  email: "hello@brightspark.ng",
-  address: "14 Coker Road, Ilupeju",
+    "Expert plumbing services for homes and commercial properties across Lagos. Fast response, clean workmanship.",
+  phone: "+234 803 456 7891",
+  whatsappNumber: "2348034567891",
+  email: "info@proflow.ng",
+  address: "22 Ogba Road, Ikeja",
   city: "Lagos",
-  category: "Electrical Services",
+  category: "Plumbing Services",
   industry: "Trade & Services",
-  logoText: "BrightSpark",
+  logoText: "ProFlow",
   primaryColor: "#1B2A4A",
   accentColor: "#C49A28",
-  ctaLabel: "Get a Free Quote",
+  ctaLabel: "Book a Plumber",
 
   about:
-    "Bright Spark Electrical has served Lagos homes and businesses for over 11 years. We are COREN-registered electricians specialising in residential wiring, commercial installations, solar inverter setup, and emergency fault repairs. Every job is done right the first time — no shortcuts, no hidden charges.",
+    "ProFlow Plumbing has been solving water and drainage problems across Lagos for over 9 years. Our licensed plumbers handle everything from blocked drains and burst pipes to full bathroom installations and borehole pump maintenance. We work clean, price fairly, and stand behind every job we do.",
 
   services: [
     {
-      name: "Residential Wiring",
+      name: "Pipe Repair & Replacement",
       description:
-        "Full house wiring for new builds and complete rewiring of existing properties. Neat, code-compliant work guaranteed.",
-      icon: "Home",
+        "Burst pipes, leaking joints, and corroded lines repaired or fully replaced with quality materials that last.",
+      icon: "Wrench",
     },
     {
-      name: "Fault Detection & Repair",
+      name: "Drain Unblocking",
       description:
-        "We diagnose and fix electrical faults fast — tripping breakers, dead sockets, flickering lights, and power surges.",
+        "Fast clearance of blocked sinks, toilets, and sewage drains. High-pressure jetting available for stubborn blockages.",
       icon: "Zap",
     },
     {
-      name: "Solar & Inverter Installation",
+      name: "Bathroom & Kitchen Fitting",
       description:
-        "Off-grid and hybrid solar systems for 24-hour power. We supply, install, and maintain all major inverter brands.",
+        "Complete bathroom installations — WCs, basins, showers, bathtubs, and kitchen sink fittings done neatly.",
+      icon: "Home",
+    },
+    {
+      name: "Borehole & Water Pump Service",
+      description:
+        "Submersible pump installation, servicing, and repair. Pressure tank fitting and overhead tank connections.",
+      icon: "Settings",
+    },
+    {
+      name: "Water Heater Installation",
+      description:
+        "Electric and gas water heater supply and installation. Solar water heating systems also available.",
       icon: "Sun",
     },
     {
-      name: "Industrial & Commercial",
+      name: "Commercial Plumbing",
       description:
-        "Three-phase installations, factory wiring, distribution board upgrades, and generator change-over panels.",
+        "Plumbing works for offices, hotels, restaurants, and industrial facilities. Planned maintenance contracts available.",
       icon: "Factory",
-    },
-    {
-      name: "CCTV & Security Lighting",
-      description:
-        "Security camera installations and motion-sensor flood lighting for homes, offices, and warehouses.",
-      icon: "ShieldCheck",
-    },
-    {
-      name: "Maintenance Contracts",
-      description:
-        "Monthly or quarterly electrical maintenance plans for businesses. Priority response and discounted labour rates.",
-      icon: "ClipboardCheck",
     },
   ],
 
   whyUs: [
-    "11 years serving Lagos — hundreds of satisfied customers",
-    "COREN-registered and fully insured engineers",
-    "Same-day emergency response available 24/7",
-    "Transparent pricing — no hidden charges ever",
+    "9 years of trusted plumbing work across Lagos",
+    "Licensed and insured — all jobs fully covered",
+    "Same-day emergency response, 7 days a week",
+    "Upfront pricing before we start any work",
   ],
 
   openingHours: [
@@ -106,21 +104,21 @@ const businessData: BusinessData = {
 
   gallery: [
     {
-      src: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1200&q=85&auto=format&fit=crop",
-      alt: "Electrician installing a distribution board",
+      src: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=1200&q=85&auto=format&fit=crop",
+      alt: "Plumber working on bathroom pipe installation",
     },
     {
-      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85&auto=format&fit=crop",
-      alt: "Solar panel installation on rooftop",
+      src: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1200&q=85&auto=format&fit=crop",
+      alt: "Clean finished bathroom plumbing installation",
     },
     {
-      src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85&auto=format&fit=crop",
-      alt: "Neat wiring work inside a commercial building",
+      src: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&q=85&auto=format&fit=crop",
+      alt: "Water pump and borehole equipment",
     },
   ],
 
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3!2d3.3604!3d6.5743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d58f3c5d6a7%3A0x0!2sIlupeju%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716000000000",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5!2d3.3478!3d6.6050!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b923a8b3c1111%3A0x0!2sIkeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716000000001",
 };
 
 export default businessData;
